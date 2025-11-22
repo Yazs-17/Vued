@@ -1,0 +1,69 @@
+{
+  "site": {
+    "title": "Vue 学习导航",
+    "tagline": "Plugins · Patterns · Practice",
+    "footerBlurb": "随时追加新的 Demo，保持学习轨迹。",
+    "docsLink": {
+      "label": "Vue 官方文档",
+      "href": "https://cn.vuejs.org/guide/introduction.html"
+    }
+  },
+  "demos": [
+    {
+      "id": "vuex-counter",
+      "title": "Vuex 计数器基础",
+      "description": "通过 Vuex mutation 管理状态，并展示步长控制、重置等常见用法。",
+      "tags": [
+        "Vuex",
+        "State"
+      ],
+      "componentPath": "VuexCounterDemo.vue",
+      "resources": [
+        {
+          "label": "Vuex 官方文档",
+          "url": "https://vuex.vuejs.org/zh/"
+        }
+      ]
+    },
+    {
+      "id": "router-playground",
+      "title": "Vue Router 玩转导航",
+      "description": "展示 useRouter、useRoute 组合式 API 以及导航守卫思路。",
+      "tags": [
+        "Vue Router"
+      ],
+      "componentPath": "RouterPlaygroundDemo.vue",
+      "resources": [
+        {
+          "label": "Vue Router 指南",
+          "url": "https://router.vuejs.org/zh/"
+        }
+      ]
+    },
+    {
+      "id": "logger-plugin",
+      "title": "自定义插件：日志工具",
+      "description": "编写一个插件扩展全局方法与 provide/inject，展示插件安装流程。",
+      "tags": [
+        "Plugin"
+      ],
+      "componentPath": "LoggerPluginDemo.vue",
+      "resources": [
+        {
+          "label": "插件开发指南",
+          "url": "https://cn.vuejs.org/guide/reusability/plugins.html"
+        }
+      ]
+    },
+    {
+      "id": "test",
+      "title": "test",
+      "description": "test",
+      "tags": [
+        "test"
+      ],
+      "componentPath": "TestDemo.vue",
+      "resources": []
+    }
+  ]
+}
